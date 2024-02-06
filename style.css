@@ -10,18 +10,44 @@ body{
 }
 
 header{
-    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 350px;
+    width: 100%;
     display: flex;
     justify-content: center;
+    transition: all 1s;
+    background-color: black;
+    z-index: 100;
 }
 
-.btn-nav{
-    cursor: pointer;
-    margin: 5px;
+.sticky{
+    height: 180px;
+    transition: all 1s;
 }
+
+.logo{
+    position: relative;
+    top: -30px;
+    left: 10px;
+    /* Para corregir posición logo */
+    transition: all 1s;
+}
+
+.logo-pequeño{
+    position: relative;
+    top: -80px;
+    transform: scale(0.5);
+    transition: all 1s;
+}
+
+
 
 main{
-    height: 909px;
+    position: relative;
+    top: 350px;
+    min-height: 150vh;
     width: -webkit-fill-available;
     background-image: url(./assets/background-barber.jpeg);
     background-size: cover;
