@@ -45,11 +45,10 @@ header{
 
 
 main{
-    position: relative;
-    top: 350px;
     min-height: 150vh;
-    width: -webkit-fill-available;
-    background-image: url(./assets/background-barber.jpeg);
-    background-size: cover;
-    background-position: center;
+}
+
+
+@media (max-width: 486px){
+
 }
