@@ -48,6 +48,9 @@ main{
     min-height: 150vh;
 }
 
+footer{
+    color: white;
+}
 
 @media (max-width: 486px){
 
